@@ -155,7 +155,7 @@ def send_email(original_command):
     the_email_object = smtplib.SMTP('smtp.gmail.com', 587)
     the_email_object.ehlo()
     the_email_object.starttls()
-    the_email_object.login('jpetullo14@gmail.com', "gobronxbombers")
+    the_email_object.login("")
 
     #answer = raw_input("Sir, any particular subject? ")
     #sample: send email message to Mom. how are you
